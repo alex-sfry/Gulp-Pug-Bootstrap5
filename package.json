@@ -1,0 +1,51 @@
+{
+    "name": "gulp4-for-bootstrap",
+    "version": "1.0.0",
+    "description": "",
+    "main": "gulpfile.js",
+    "type": "module",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@babel/core": "^7.23.5",
+        "@babel/preset-env": "^7.23.5",
+        "@fullhuman/postcss-purgecss": "^5.0.0",
+        "@rollup/plugin-babel": "^6.0.4",
+        "@rollup/plugin-node-resolve": "^15.2.3",
+        "@rollup/plugin-terser": "^0.4.4",
+        "@rollup/stream": "^3.0.1",
+        "browser-sync": "^2.29.3",
+        "del": "^7.1.0",
+        "eslint": "^8.55.0",
+        "get-folder-size": "^4.0.0",
+        "glob": "^10.3.10",
+        "gulp": "^4.0.2",
+        "gulp-autoprefixer": "^8.0.0",
+        "gulp-clean-css": "^4.3.0",
+        "gulp-fonter": "^0.3.0",
+        "gulp-imagemin": "^8.0.0",
+        "gulp-newer": "^1.4.0",
+        "gulp-pug": "^5.0.0",
+        "gulp-purgecss": "^5.0.0",
+        "gulp-rename": "^2.0.0",
+        "gulp-replace": "^1.1.4",
+        "gulp-sass": "^5.1.0",
+        "gulp-sourcemaps": "^3.0.0",
+        "mini-css-extract-plugin": "^2.7.6",
+        "rollup": "^3.29.4",
+        "rollup-plugin-filesize": "^10.0.0",
+        "sass": "^1.69.5"
+    },
+    "browserslist": [
+        "> 0.2%",
+        "Firefox ESR"
+    ],
+    "dependencies": {
+        "@popperjs/core": "^2.11.8",
+        "bootstrap": "^5.3.2"
+    }
+}
